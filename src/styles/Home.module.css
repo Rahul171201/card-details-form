@@ -1,0 +1,71 @@
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+
+.sideBar {
+  width: 30vw;
+  min-height: 100vh;
+  border: 1px solid black;
+  background-image: url("/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardForm {
+  width: 70vw;
+  min-height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 30vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+.cardFront {
+  width: 500px;
+  height: 400px;
+  position: inherit;
+  top: 200px;
+  left: 160px;
+  background-image: url("/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cardBack {
+  width: 500px;
+  height: 500px;
+  position: inherit;
+  top: 500px;
+  left: 260px;
+  background-image: url("/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.formWrapper {
+  border: 1px solid black;
+  width: 50vw;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  line-height: 3;
+}
+
+.bottomInfo {
+  display: flex;
+}
