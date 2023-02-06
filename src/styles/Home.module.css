@@ -7,7 +7,6 @@
 .sideBar {
   width: 30vw;
   min-height: 100vh;
-  border: 1px solid black;
   background-image: url("/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +15,6 @@
 .cardForm {
   width: 70vw;
   min-height: 100vh;
-  border: 1px solid black;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -27,17 +25,6 @@
   min-height: 100vh;
   position: absolute;
   top: 0;
-}
-
-.cardFront {
-  width: 500px;
-  height: 400px;
-  position: inherit;
-  top: 200px;
-  left: 160px;
-  background-image: url("/bg-card-front.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .cardBack {
@@ -52,7 +39,6 @@
 }
 
 .formWrapper {
-  border: 1px solid black;
   width: 50vw;
   min-height: 800px;
   display: flex;
@@ -68,4 +54,106 @@
 
 .bottomInfo {
   display: flex;
+  gap: 8px;
+}
+
+.upperInput {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+}
+.lowerInput {
+  width: 100px;
+  height: 50px;
+  display: inline;
+  padding: 10px;
+}
+
+.expiryDateContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 9px;
+}
+
+.cvcContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+.button {
+  width: 500px;
+  height: 45px;
+  background-color: rgb(52, 10, 92);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(124, 48, 196);
+}
+
+.cardFront {
+  width: 500px;
+  height: 400px;
+  position: inherit;
+  top: 200px;
+  left: 160px;
+  background-image: url("/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bigCircle {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.smallCircle {
+  position: absolute;
+  top: 45px;
+  left: 150px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.cardNumber {
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 2rem;
+}
+
+.cardOwner {
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.885);
+  font-size: 1.2rem;
+}
+
+.cardExpiry {
+  position: absolute;
+  top: 220px;
+  left: 400px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.885);
+  font-size: 1.2rem;
 }
