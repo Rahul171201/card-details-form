@@ -1,12 +1,13 @@
 # Card details Form
-This is just a simple react based responsive subscription page for a website.
+This is just a simple react based card details page for a website.
 
 # Tools, Language and Framework
 Next, Javascript, HTML, CSS
 
 # Preview
 
-<img width="1728" alt="Screenshot 2023-01-26 at 11 52 04 AM" src="https://user-images.githubusercontent.com/70642284/214770747-ede0a788-193a-487f-9666-716ee03265ad.png">
+<img width="1790" alt="Screenshot 2023-02-15 at 6 48 48 PM" src="https://user-images.githubusercontent.com/70642284/219038433-3bd82bee-9c92-4263-80d5-aad00939e662.png">
+
 
 
 
